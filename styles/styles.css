@@ -2,8 +2,16 @@
 .back-sizer{
     height:600px;
     border:2px solid black;
-}
 
+    background-image: url("../images/puppy-full.jpg"); /* ../ means go up one folder */
+
+    background-size: 150%; /* contain makes the whole background image fit inside the element; cover ensures the background image covers the entire element, with background size you can also set a specific size in px or em or other units. You can also enter two values (horizontal size then vertical size) but this risks scaling the image out of ratio */
+
+    background-position: 70% center; /* background-position lets you change which part of the image is visible, or change the anchor point. You can use a relative position, like center, left, right, top, or bottom. You can also set a specific position using px or % or other units. The order is horizontal position, vertical position */
+
+    background-repeat: no-repeat; /* background-repeat controls how the image repeats */
+    
+}
 .test2 img{
     width:100%;
 }
